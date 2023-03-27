@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+.background{
+    background-image: url(img/jordan1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 50vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    transition: all .35s ease;
+    background-color: #000000;
+    padding: 14px 14%;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #00fff2;
+    text-shadow: 2px 2px #cc00ff;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 4rem;
+}
+
+.cabeçalho-link a{
+    color: #ffffff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #cc00ff;
+}
+
+.icon span{
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.icon span:hover{
+    color: #cc00ff;
+}
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+
+.Meio h1{
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 3px 3px #cc00ff;
+}
+
+.Meio p{
+    color: #ffffff;
+}
+
+.Meio button{
+    background-color: #cc00ff;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Meio button:hover{
+    background-color: #000000;
+    transform: scaleY(1.2);
+}
+
+.section{
+    padding-top: 7rem;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00aeff;
+    border-radius: 9px;
+  }
+
+.cards:hover .overlay{
+    opacity: 1;
+  }
+
+.cards{
+    position: relative;
+}
+
+.cards img{
+    border-radius: 9px;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.fundo{
+    background: url(img/carro2.png);
+    background-position: center;
+    background-size: cover;
+    height: 43vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.texto-fundo{
+    padding-left: 6rem;
+}
+
+.texto-fundo h6{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.texto-fundo h4{
+    font-size: 3.3rem;
+    line-height: 1.2;
+    color: #ffffff;
+    text-shadow: 3px 3px#0066ff;
+    margin-bottom: 30px;
+}
+
+.texto-fundo a{
+    background-color: #0066ff;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.texto-fundo a:hover{
+    background-color: #000000;
+    transform: scaleY(1.2);
+}
+
+.new-prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.new-prod img:hover{
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.roupas{
+    background-color: #d8dde2;
+    border-radius: 5px;
+}
+
+.roupas h5{
+    color: #5300c0;
+}
+
+.roupas img{
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.Contato{
+    display: flex;
+    gap: 18rem;
+    justify-content: center;
+    background-color: #000000;
+    padding: 3rem;
+    margin-top: 9rem;
+}
+
+.meio-contato h3{
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 23px;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    color: #555;
+    font-weight: 600;
+}
+
+.meio-contato li a{
+    color: #555;
+    font-weight: 600;
+}
